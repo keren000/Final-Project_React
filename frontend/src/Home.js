@@ -18,7 +18,9 @@ class Home extends Component {
         <br />
         <Link to="/books">
           <button className="btn btn-md btn-primary center-block">
-            Get Started!
+            <b>
+              <h4>Get Started!</h4>
+            </b>
           </button>
         </Link>
       </div>

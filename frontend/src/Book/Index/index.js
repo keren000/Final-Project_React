@@ -3,6 +3,7 @@ import axiosClient from "../../axiosClient";
 import axios from "axios";
 import Index from "./Index.css";
 import Search from "../Search/Search";
+import { Link } from "react-router-dom";
 
 class BookIndex extends Component {
   constructor(props) {
@@ -41,6 +42,14 @@ class BookIndex extends Component {
     return (
       <div className="BookIndex col-sm-12" style={{ marginTop: 10 }}>
         <div className="clearfix">
+          <div className="pull-left">
+            <br />
+            <Link to="/home">
+              <button className="btn btn-md btn-primary center-block">
+                Home
+              </button>
+            </Link>
+          </div>
           <div className="pull-right">
             <br />
             <button
