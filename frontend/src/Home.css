@@ -1,0 +1,57 @@
+.Home {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: aquamarine; */
+  background: url("./images/welcome.jpg") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 640px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* p {
+  border-right: solid 5px rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 28px;
+  color: black;
+  margin-left: 100px;
+} */
+
+/* Animation */
+/* p {
+  animation: animated-text 4s linear 1s 1 normal both,
+    animated-cursor 600ms linear infinite;
+} */
+
+/* text animation */
+
+/* @keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1010px;
+  }
+} */
+
+/* cursor animations */
+
+/* @keyframes animated-cursor {
+  from {
+    border-right-color: black;
+  }
+  to {
+    border-right-color: transparent;
+  }
+} */

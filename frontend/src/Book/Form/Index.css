@@ -1,0 +1,12 @@
+.BookForm {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  width: 60%;
+}
+
+img {
+  width: 120%;
+}
