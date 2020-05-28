@@ -44,4 +44,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # gem add
 gem 'paperclip', '~> 6.1'
 gem 'rack-cors', '~> 1.0', '>= 1.0.3'
-gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'kaminari', '~> 1.2'
